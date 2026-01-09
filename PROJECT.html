@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Unique Webpage</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        font-family: 'Trebuchet MS', sans-serif;
+        background: radial-gradient(circle at top, #ff9a8b, #ff6a88, #845ec2);
+        color: #2d2d2d;
+    }
+
+    /* Navigation Bar */
+    nav {
+        background: rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(12px);
+        padding: 15px;
+        text-align: center;
+    }
+
+    nav a {
+        color: #2d2d2d;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    nav a:hover {
+        color: #ffffff;
+    }
+
+    /* Hero Section */
+    .hero {
+        text-align: center;
+        padding: 90px 20px 60px;
+        color: white;
+    }
+
+    .hero img {
+        width: 190px;
+        border-radius: 50%;
+        border: 6px solid rgba(255,255,255,0.7);
+        box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+    }
+
+    .hero h1 {
+        font-size: 42px;
+        margin-top: 20px;
+        letter-spacing: 2px;
+    }
+
+    .hero p {
+        font-size: 18px;
+        opacity: 0.95;
+    }
+
+    /* Wave Divider */
+    .wave {
+        background: white;
+        height: 80px;
+        border-top-left-radius: 100% 100px;
+        border-top-right-radius: 100% 100px;
+    }
+
+    /* Sections */
+    .section {
+        max-width: 950px;
+        margin: 40px auto;
+        background: white;
+        padding: 35px;
+        border-radius: 30px;
+        box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+    }
+
+    .section h2 {
+        text-align: center;
+        color: #ff6a88;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+    }
+
+    .section p {
+        text-align: center;
+        line-height: 1.8;
+        font-size: 16px;
+    }
+
+    /* Skills */
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .skill {
+        background: linear-gradient(135deg, #ff6a88, #ff9a8b);
+        color: white;
+        padding: 14px 24px;
+        border-radius: 40px;
+        font-size: 15px;
+        transition: all 0.3s ease;
+    }
+
+    .skill:hover {
+        transform: translateY(-8px) rotate(-2deg);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+
+    /* Contact */
+    .contact {
+        text-align: center;
+    }
+
+    .contact-btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 14px 30px;
+        background: #845ec2;
+        color: white;
+        text-decoration: none;
+        border-radius: 50px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        transition: 0.3s;
+    }
+
+    .contact-btn:hover {
+        background: #5f4aa3;
+        transform: scale(1.1);
+    }
+
+    footer {
+        text-align: center;
+        padding: 25px;
+        color: white;
+        font-size: 14px;
+        opacity: 0.9;
+    }
+</style>
+</head>
+
+<body>
+
+<nav>
+    <a href="#about">ABOUT</a>
+    <a href="#skills">SKILLS</a>
+    <a href="#contact">CONTACT</a>
+</nav>
+
+<!-- Hero -->
+<div class="hero">
+    <img src="https://via.placeholder.com/190" alt="Profile Image">
+    <h1>KAMALA KAVIYA J</h1>
+    <p>Creative Thinker • Web Learner • Designer</p>
+</div>
+
+<div class="wave"></div>
+
+<!-- About -->
+<div class="section" id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a beginner web developer who loves creativity, colors, and design.
+        I enjoy building unique webpages using HTML and CSS and turning ideas into reality.
+    </p>
+</div>
+
+<!-- Skills -->
+<div class="section" id="skills">
+    <h2>My Skills</h2>
+    <div class="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">UI Design</div>
+        <div class="skill">Creative Thinking</div>
+        <div class="skill">Web Layouts</div>
+    </div>
+</div>
+
+<!-- Contact -->
+<div class="section contact" id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: jkk191817@gmail.com.com</p>
+    <p>Phone: +91 9087387691</p>
+    <a class="contact-btn" href="mailto:yourname@example.com">Let’s Connect ✨</a>
+</div>
+
+<footer>
+    © 2026 KAMALA KAVIYA | Unique & Creative Design 🌈
+</footer>
+
+</body>
+</html>
